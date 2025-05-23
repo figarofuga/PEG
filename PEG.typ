@@ -8,11 +8,11 @@
 #show: university-theme.with(
   aspect-ratio: "16-9",
   config-info(
-    title: [Title],
-    subtitle: [Subtitle],
-    author: [Authors],
+    title: [PEGについての覚書],
+    subtitle: [人生終末期の代替栄養],
+    author: [Nozomi Niimi],
     date: datetime.today(),
-    institution: [Institution],
+    institution: [NTMC],
     logo: emoji.school,
   ),
 )
@@ -49,7 +49,7 @@
 // for main text
 #set text(
     lang: "ja",  // 英語しか使わない文書では"en"とする（もしくは指定しない）
-    font: ("Calibri", "Noto Serif CJK JP"),  
+    font: ("Noto Serif CJK JP"),  
     // font: (日本語文字を含まないフォント, 日本語文字を含むフォント),  となっている
 )
 
