@@ -12,8 +12,7 @@
     subtitle: [人生終末期の代替栄養],
     author: [Nozomi Niimi],
     date: datetime.today(),
-    institution: [NTMC],
-    logo: emoji.school,
+    institution: [東京医療センター]
   ),
 )
 
@@ -54,12 +53,24 @@
 )
 
 // Use #polylux-slide to create a slide and style it using your favourite Typst functions
-#title-slide(authors: ([Nozomi Niimi], [Author B]))
+#title-slide(
+  authors: ([Nozomi Niimi]), 
+  date: datetime.today(), 
+  title: [PEGについての覚書], 
+  subtitle: [人生終末期の代替栄養], 
+  institution: [東京医療センター])
 
 
-= Title
+== 目次
 
-== First Slide 
+- PEGとは
+- PEGの適応
+- PEGの挿入方法
+- PEGの合併症
+- PEGの管理
+- PEGの除去
+- まとめ
 
-Hello, Touying!
+== PEGとは
 
+- PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
