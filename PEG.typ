@@ -4,31 +4,28 @@
 #import themes.university: *
 
 #import "@preview/numbly:0.1.0": numbly
-
-#show: university-theme.with(
-  aspect-ratio: "16-9",
-  config-info(
-    title: [PEGについての覚書],
-    subtitle: [人生終末期の代替栄養],
-    author: [Nozomi Niimi],
-    date: datetime.today(),
-    institution: [東京医療センター],
-  ),
-)
-
-#set heading(numbering: numbly("{1}.", default: "1.1"))
-
 #import fletcher.shapes: diamond
 
 
-// Make the paper dimensions fit for a presentation and the text larger
-#set footnote.entry(clearance: 0.1em, gap: 0.2em)
+// set headings
+#set heading(numbering: numbly("{1}.", default: "1.1"))
 #show heading: set align(start + top)
 #show heading: set text(size: 28pt)
+
+// Make the paper dimensions fit for a presentation and the text larger
+#set footnote.entry(clearance: 0.1em, gap: 0.2em)
+
 #set align(horizon)
 
+// custom functions
 #let lb = linebreak(justify: false)
+#let refs(body) = {
+  set text(size: 8pt)
+  align(right, body)
+}
 
+
+// set lists
 #set list(marker: ([•], [◦], [🗸]))
 #let list-counter = counter("list")
 
@@ -52,16 +49,18 @@
   // font: (日本語文字を含まないフォント, 日本語文字を含むフォント),  となっている
 )
 
-
-// Use #polylux-slide to create a slide and style it using your favourite Typst functions
-#title-slide(
-  authors: [Nozomi Niimi],
-  date: datetime.today(),
-  title: [PEGについての覚書],
-  subtitle: [人生終末期の代替栄養],
-  institution: [東京医療センター],
+#show: university-theme.with(
+  aspect-ratio: "16-9",
+  config-info(
+    title: [PEGについての覚書],
+    subtitle: [人生終末期の代替栄養],
+    author: [Nozomi Niimi],
+    date: datetime.today(),
+    institution: [東京医療センター],
+  ),
 )
 
+#title-slide()
 
 == 目次
 
@@ -73,8 +72,16 @@
 - PEGの除去
 - まとめ
 
+
 == PEGとは
 
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
+#refs("ドクターズネットワーク
+HEQ研究会.
+胃瘻に関する全国調査
+「胃瘻と栄養についてのアンケート」調査結果.
+December 2005. Accessed May 24, 2025.
+https://peg..jp/news/research/peg-n01.pdf")
+
 
 
