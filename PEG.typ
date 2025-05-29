@@ -1,6 +1,7 @@
 // Get Polylux from the official package repository
 #import "@preview/touying:0.5.5": *
 #import "@preview/fletcher:0.5.1" as fletcher: diagram, node, edge
+#import fletcher.shapes: arc
 #import themes.university: *
 
 #import "@preview/numbly:0.1.0": numbly
@@ -23,6 +24,25 @@
   set text(size: 8pt)
   align(right, body)
 }
+
+#let pie-chart = (values, colors) => diagram(
+  // values: [数値, ...]
+  // colors: ["red", "blue", ...]
+  let total = sum(values)
+  let start = 0.0
+  for i in range(len(values)) {
+    let angle = values[i] / total * 360
+    arc(
+      center: (0, 0),
+      radius: 80pt,
+      angles: (start, start + angle),
+      fill: colors[i],
+      stroke: none
+    )
+    start += angle
+  }
+  // 枠線を描きたい場合はここにcircleなどを追加
+)
 
 
 // set lists
@@ -76,12 +96,7 @@
 == PEGとは
 
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
-#refs("ドクターズネットワーク
-HEQ研究会.
-胃瘻に関する全国調査
-「胃瘻と栄養についてのアンケート」調査結果.
-December 2005. Accessed May 24, 2025.
-https://peg..jp/news/research/peg-n01.pdf")
+#refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
 
 
 
