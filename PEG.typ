@@ -1,7 +1,7 @@
 // Get Polylux from the official package repository
 #import "@preview/touying:0.5.5": *
 #import "@preview/fletcher:0.5.1" as fletcher: diagram, node, edge
-#import fletcher.shapes: arc
+// #import fletcher.shapes: arc
 #import themes.university: *
 
 #import "@preview/numbly:0.1.0": numbly
@@ -25,24 +25,6 @@
   align(right, body)
 }
 
-#let pie-chart = (values, colors) => diagram(
-  // values: [数値, ...]
-  // colors: ["red", "blue", ...]
-  let total = sum(values)
-  let start = 0.0
-  for i in range(len(values)) {
-    let angle = values[i] / total * 360
-    arc(
-      center: (0, 0),
-      radius: 80pt,
-      angles: (start, start + angle),
-      fill: colors[i],
-      stroke: none
-    )
-    start += angle
-  }
-  // 枠線を描きたい場合はここにcircleなどを追加
-)
 
 
 // set lists
@@ -84,6 +66,7 @@
 
 == 目次
 
+- 代替栄養とは
 - PEGとは
 - PEGの適応
 - PEGの挿入方法
@@ -92,11 +75,42 @@
 - PEGの除去
 - まとめ
 
+== 代替栄養とは
+
+- 代替栄養（Artificial Nutrition）は、経口摂取が困難な患者に対して、栄養を補給するための医療行為
+- 主に、経管栄養（Enteral Nutrition）と静脈栄養（Parenteral Nutrition）の2つに分類される
+- 経管栄養は、口から胃や腸に直接栄養を供給する方法で、PEGもその一つ
+- 静脈栄養は、CVポートや中心静脈カテーテルを通じて行う
+- 皮下点滴も一応入れたり入れなかったり
+
+== 代替栄養の利点・欠点
+
+#table(
+  columns: 3,
+  [方法], [メリット], [デメリット],
+  [経鼻胃管], [簡単に入る、合併症はほぼない、十分に栄養が入る], [抑制が必要、長期使用は難しい],
+  [胃瘻], [十分に栄養が入る、長期に使える、抑制は不要な可能性が高い], [倫理的問題、作成時の合併症の発症],
+  [CVポート], [比較的侵襲性は低い、十分な栄養が入る], [肝障害、*感染症のリスク*],
+)
+
+== 代替栄養を考える時
+
+- 嚥下機能低下
+- 意識障害
+- 消化管の機能不全
+など
+
+== 嚥下機能低下の予後？
+
+== 代替栄養についてのコンセンサス
+
+- FAST 7C+の人だと意義はないかも
 
 == PEGとは
 
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
 
+== PEGの適応
 
 
