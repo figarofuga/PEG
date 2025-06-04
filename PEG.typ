@@ -68,7 +68,7 @@
 
 #title-slide()
 
-#outline()
+#outline(title: [Table of contents], depth: 1)
 #show outline: set text(size: 24pt)
 
 = 代替栄養とは
@@ -103,6 +103,10 @@
 == 代替栄養についてのコンセンサス
 
 - FAST 7C+の人だと意義はないかも
+
+
+= PEGとは
+
 
 == PEGとは
 
