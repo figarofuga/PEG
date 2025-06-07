@@ -1,4 +1,3 @@
-// Get Polylux from the official package repository
 #import "@preview/touying:0.5.5": *
 #import "@preview/fletcher:0.5.1" as fletcher: diagram, node, edge
 // #import fletcher.shapes: arc
@@ -11,7 +10,6 @@
 #import "@preview/cetz-plot:0.1.1": chart
 
 
-
 // set headings
 #set heading(numbering: numbly("{1}.", default: "1.1"))
 #show heading: set align(start + top)
@@ -19,7 +17,6 @@
 
 // Make the paper dimensions fit for a presentation and the text larger
 #set footnote.entry(clearance: 0.1em, gap: 0.2em)
-
 #set align(horizon)
 
 // custom functions
@@ -100,10 +97,17 @@
 
 == 嚥下機能低下の予後？
 
-== 代替栄養についてのコンセンサス
+- 基本的にはかなり悪いが、原疾患による
+- 例えば、誤嚥性肺炎や認知機能低下によるものは極端に予後が悪い
+
+== Landmark trial
+
+- 2009年のCASCADE trial
+- 肺炎合併の認知機能低下の患者の中央値は6ヶ月
+
+== 現在の世界的standard
 
 - FAST 7C+の人だと意義はないかも
-
 
 = PEGとは
 
@@ -112,6 +116,16 @@
 
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
+
+== PEGの入れ方
+
+- 基本的には内視鏡を用いて皮膚から胃壁を通して胃にカテーテルを挿入する
+- どうしてももできない時は開腹でやる事もある
+- 入れ方でpush/pull法などがある(TODO)
+
+
+
+
 
 == PEGの適応
 
