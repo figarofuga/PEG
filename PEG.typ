@@ -121,7 +121,7 @@
   - 改善のEvidenceがない事 ≠ 改善しないEvidenceがある事 に注意
 #refs("Cochrane Database Syst Rev. 2021;8(8):CD013503.")
 
-== 家族の思いとは？
+== 家族の思いとは？～世界
 
 A randomised controlled trial of US nursing home residents living with dementia found that comfort is the primary goal of care for most (67%), with only 7% wanting life prolonging care, and the remaining 26% opting for basic medical care only (treatment including antibiotics,
 parenteral therapy, and hospitalisation, but not cardiopulmonary resuscitation, intubation, enteral tube feeding, or intensive
@@ -129,7 +129,20 @@ care).
 
 #refs("BMJ. 2025;389:e075326.")
 
-Todo: 日本でのデータを探す
+== 家族の思いとは？～日本
+
+#figure(
+  image("figure/japan_iro_kibo.png", height: 70%),
+  caption: [
+    日本における人生終末期の医療希望
+  ],
+)
+
+#refs("
+    人生の最終段階における医療・ケアに関する意識調査事業. 人生の最終段階における医療・ケアに関する意識調査報告書. 2022年5月.
+    https://www.mhlw.go.jp/toukei/list/dl/saisyuiryo_a_r04.pdf
+  
+")
 
 = PEGとは
 
