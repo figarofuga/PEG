@@ -102,30 +102,51 @@
 
 == Landmark trial
 
+#figure(
+  image("figure/cascade_km.drawio.svg"),
+  caption: [
+    Kaplan meier curve in CASCADE trial.
+  ],
+)
+
 - 2009年のCASCADE trial
-- 肺炎合併の認知機能低下の患者の中央値は6ヶ月
+- 肺炎合併の重度認知症患者の中央値は6ヶ月
 
-== 現在の世界的standard
+#refs("N Engl J Med. 2009;361(16):1529-1538.")
 
-- FAST 7C+の人だと意義はないかも
+== 現在の世界的コンセンサス
+
+- 重度認知症患者に対する人工栄養は、予後改善、QOL改善、栄養状態の改善に寄与しない
+  - ただし、RCTは存在しない
+  - 改善のEvidenceがない事 ≠ 改善しないEvidenceがある事 に注意
+#refs("Cochrane Database Syst Rev. 2021;8(8):CD013503.")
+
+== 家族の思いとは？
+
+A randomised controlled trial of US nursing home residents living with dementia found that comfort is the primary goal of care for most (67%), with only 7% wanting life prolonging care, and the remaining 26% opting for basic medical care only (treatment including antibiotics,
+parenteral therapy, and hospitalisation, but not cardiopulmonary resuscitation, intubation, enteral tube feeding, or intensive
+care).
+
+#refs("BMJ. 2025;389:e075326.")
+
+Todo: 日本でのデータを探す
 
 = PEGとは
 
-
 == PEGとは
 
-- PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技です。主に、経口摂取が困難な患者に対して栄養補給を行うために使用されます。
+- PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技。
+
+
+
+
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
 
 == PEGの入れ方
 
 - 基本的には内視鏡を用いて皮膚から胃壁を通して胃にカテーテルを挿入する
-- どうしてももできない時は開腹でやる事もある
-- 入れ方でpush/pull法などがある(TODO)
-
-
-
-
+  - どうしてももできない時は開腹でやる事もある
+  - 入れ方でpush/pull法、Introducer法などがある(TODO)
 
 == PEGの適応
 

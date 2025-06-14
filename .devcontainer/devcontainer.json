@@ -4,40 +4,38 @@
 	"name": "Typst",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
-        "dockerfile": "Dockerfile" // 相対パス表記
-    }, 
-
-
+		"dockerfile": "Dockerfile" // 相対パス表記
+	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080],
-
+	"forwardPorts": [
+		8080
+	],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"myriad-dreamin.tinymist",
-				"valentjn.vscode-ltex",       // Grammar/spell checking
+				"valentjn.vscode-ltex", // Grammar/spell checking
 				"streetsidesoftware.code-spell-checker", // Spell checking
-				"tomoki1207.pdf",             // PDF preview
+				"tomoki1207.pdf", // PDF preview
 				"bierner.markdown-preview-github-styles" // For README previews
 			],
 			"settings": {
-				"editor.formatOnSave": true,
+				"editor.formatOnSave": false,
 				"editor.wordWrap": "on",
-				"editor.rulers": [80],
+				"editor.rulers": [
+					80
+				],
 				"files.associations": {
 					"*.typ": "typst"
 				}
 			}
 		}
 	},
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
