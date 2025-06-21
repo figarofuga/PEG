@@ -123,10 +123,10 @@
 
 == 家族の思いとは？～世界
 
-A randomised controlled trial of US nursing home residents living with dementia found that comfort is the primary goal of care for most (67%), with only 7% wanting life prolonging care, and the remaining 26% opting for basic medical care only (treatment including antibiotics,
-parenteral therapy, and hospitalisation, but not cardiopulmonary resuscitation, intubation, enteral tube feeding, or intensive
-care).
-
+- 2/3の認知症がある施設の居住者はCareの第一目標は安楽である
+- 26%は非侵襲的な治療のみ希望している(抗菌薬、経静脈治療、入院)
+- わずか7%が寿命延伸を第一目標としている
+  
 #refs("BMJ. 2025;389:e075326.")
 
 == 家族の思いとは？～日本
@@ -148,12 +148,43 @@ care).
 
 == PEGとは
 
+#figure(
+  image("figure/PEG_atglance.jpeg", height: 70%),
+  caption: [
+    PEGの見た目と構造
+  ],
+)
+
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技。
 
 
-
-
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
+
+== PEGの種類
+
+#figure(
+  image("figure/PEG_shurui.jpeg", height: 60%),
+  caption: [
+    PEGの種類
+  ],
+)
+
+- 外部ストッパーと内部ストッパーで大別される
+  - 外部ストッパー: ボタン型/チューブ型
+  - 内部ストッパー: バルーン/バンパー型
+
+== 外部ストッパーについて
+#slide(composer: (1fr, auto))[
+  
+  - ボタン型の利点
+
+][
+  - チューブ型の利点
+
+
+]
+
+
 
 == PEGの入れ方
 
@@ -209,4 +240,4 @@ care).
   [脳血管疾患のみ vs. 脳血管疾患+肺炎], [5.6% vs. 14.7%],
 )
 
-#refs("Gastrointest Endosc. 2014;80(1):88-96. doi:10.1016/j.gie.2013.12.006")
+#refs("Gastrointest Endosc. 2014;80(1):88-96.")
