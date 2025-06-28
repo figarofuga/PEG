@@ -140,9 +140,17 @@
 
 #refs("
     人生の最終段階における医療・ケアに関する意識調査事業. 人生の最終段階における医療・ケアに関する意識調査報告書. 2022年5月.
-    https://www.mhlw.go.jp/toukei/list/dl/saisyuiryo_a_r04.pdf
-  
+    https://www.mhlw.go.jp/toukei/list/dl/saisyuiryo_a_r04.pdf  
 ")
+
+== PEGの決定法
+
+#figure(
+  image("figure/PEG_rirni_tekiou.jpeg", height: 70%),
+  caption: [
+    PEGの適応の決定方法
+  ],
+)
 
 = PEGとは
 
@@ -177,9 +185,11 @@
 #slide(composer: (1fr, auto))[
   
   - ボタン型の利点
+    - 外に出ないため、認知症患者などで良い
 
 ][
   - チューブ型の利点
+    - なんだろう？
 
 
 ]
@@ -241,3 +251,4 @@
 )
 
 #refs("Gastrointest Endosc. 2014;80(1):88-96.")
+
