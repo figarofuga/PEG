@@ -201,7 +201,7 @@
 #figure(
   image("figure/PEG_introducer.jpeg", height: 60%),
   caption: [
-    Introducer変法
+    Introducer変法(direct法)
   ],
 )
 
