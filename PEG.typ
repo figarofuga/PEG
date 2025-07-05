@@ -198,10 +198,19 @@
 
 == PEGの入れ方
 
+#figure(
+  image("figure/PEG_introducer.jpeg", height: 60%),
+  caption: [
+    Introducer変法
+  ],
+)
+
 - 基本的には内視鏡を用いて皮膚から胃壁を通して胃にカテーテルを挿入する
   - どうしてももできない時は開腹でやる事もある
   - 入れ方でpush/pull法、Introducer法などがある
   - 当院では基本的にはIntroducer法との事
+
+
 
 == PEGの適応
 
