@@ -15,6 +15,9 @@
 #show heading: set align(start + top)
 #show heading: set text(size: 28pt)
 
+// キャプションのフォントサイズを10ptに設定
+#show figure.caption: set text(size: 10pt)
+
 // Make the paper dimensions fit for a presentation and the text larger
 #set footnote.entry(clearance: 0.1em, gap: 0.2em)
 #set align(horizon)
@@ -182,24 +185,25 @@
   - 内部ストッパー: バルーン/バンパー型
 
 == 外部ストッパーについて
-#slide(composer: (1fr, auto))[
-  
-  - ボタン型の利点
-    - 外に出ないため、認知症患者などで良い
 
-][
-  - チューブ型の利点
-    - なんだろう？
+#table(
+  columns: 3,
+  [外部ストッパー], [メリット], [デメリット],
+  [ボタン型], [自己抜去のRiskが少ない #lb カテーテル汚染が少ない], [栄養剤との接続が複雑 #lb 交換時までシャフト長を変更出来ない],
+  [チューブ型], [栄養剤との接続が容易], [自己抜去のRiskが高い]
+)
 
-
-]
-
+- ボタン型が良いのは
+  - 若くて理解力がある元気な患者
+  - 逆に自己抜去のRiskが非常に高い患者で良い適応
+- チューブ型が良いのは
+  - 理解力があるが麻痺などで細かい作業が困難な患者で良い適応
 
 
 == PEGの入れ方
 
 #figure(
-  image("figure/PEG_introducer.jpeg", height: 60%),
+  image("figure/PEG_introducer.jpeg", height: 50%),
   caption: [
     Introducer変法(direct法)
   ],
