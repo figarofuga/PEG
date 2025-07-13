@@ -117,6 +117,15 @@
 
 #refs("N Engl J Med. 2009;361(16):1529-1538.")
 
+== 日本のデータ
+
+- 聖隷浜松病院のデータ
+
+
+#refs("
+    Honda Y, Homma Y, Nakamura M, Ojima T, Saito K. Extremely Poor Post-discharge Prognosis in Aspiration Pneumonia and Its Prognostic Factors: A Retrospective Cohort Study. Dysphagia. Published online February 22, 2024. doi:10.1007/s00455-023-10665-z
+  ")
+
 == 現在の世界的コンセンサス
 
 - 重度認知症患者に対する人工栄養は、予後改善、QOL改善、栄養状態の改善に寄与しない
@@ -146,13 +155,22 @@
     https://www.mhlw.go.jp/toukei/list/dl/saisyuiryo_a_r04.pdf  
 ")
 
-== PEGの決定法
+== PEGの適応の決定方法
+
+- 大きく分けて
+  - 倫理的適応
+  - 身体的適応  に分けられる
+
+== PEGの倫理的適応
 
 #figure(
-  image("figure/PEG_rirni_tekiou.jpeg", height: 70%),
-  caption: [
-    PEGの適応の決定方法
-  ],
+  image("figure/PEG_rirni_tekiou.jpeg", height: 70%)
+)
+
+== PEGの身体的適応
+
+#figure(
+  image("figure/PEG_shintai_tekiou.jpeg", height: 70%)
 )
 
 = PEGとは
@@ -167,7 +185,6 @@
 )
 
 - PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技。
-
 
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
 
@@ -212,15 +229,14 @@
 - 基本的には内視鏡を用いて皮膚から胃壁を通して胃にカテーテルを挿入する
   - どうしてももできない時は開腹でやる事もある
   - 入れ方でpush/pull法、Introducer法などがある
-  - 当院では基本的にはIntroducer法との事
-
-
+  - 当院では基本的にはIntroducer法/Introducer変法との事
 
 == PEGの適応
 
 - ガイドライン上は4週間を超える経管栄養で経鼻胃管より推奨
 
 == PEGの適応
+
 
 
 #let data = (
@@ -252,7 +268,7 @@
   )
 })
 
-== PEGの合併症
+== PEGの短期合併症
 
 - 日本の2007-2010年のDPCデータ(n = 64,219)
   - 30日死亡は6.2%, 院内死亡は11.9%
@@ -270,3 +286,18 @@
 
 #refs("Gastrointest Endosc. 2014;80(1):88-96.")
 
+== PEGの交換
+
+- Balloon型だと1-3ヶ月毎
+- バンパー型だと4-6ヶ月毎
+
+== PEGの長期予後
+
+- aa
+
+#refs("JAMA Netw Open. 2025;8(2):e2460780.")
+
+#refs(" World J Gastroenterol. 2010;16(40):5084-5091. doi:10.3748/wjg.v16.i40.5084")
+
+
+  
