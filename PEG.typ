@@ -108,7 +108,7 @@
 #figure(
   image("figure/cascade_km.drawio.svg"),
   caption: [
-    Kaplan meier curve in CASCADE trial.
+    Kaplan-meier curve in CASCADE trial.
   ],
 )
 
@@ -177,14 +177,22 @@
 
 == PEGとは
 
+- PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃瘻を作成する手法
+- 1979年に米国で開発され、世界中に広まった
+  - 1980年代には世界中の人工栄養の主流となった
+
+
+#refs("日老医誌  2012；49：126―129")
+
+== PEGの構造
+
 #figure(
-  image("figure/PEG_atglance.jpeg", height: 70%),
+  image("figure/PEG_atglance.jpeg", height: 60%),
   caption: [
     PEGの見た目と構造
   ],
 )
 
-- PEG（Percutaneous Endoscopic Gastrostomy）は、内視鏡を用いて胃に直接カテーテルを挿入する手技。
 
 #refs("Nihon Shokakibyo Gakkai Zasshi. 2009;106(9):1313-1320.")
 
