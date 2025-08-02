@@ -65,6 +65,14 @@
     institution: [東京医療センター],
   ),
 )
+// for tall slide
+#let tall-slide(body) = touying-slide-wrapper(self => {
+  self = utils.merge-dicts(self, config-page(
+    width: 33.867cm,
+    height: 33.867cm,
+  ))
+  touying-slide(self: self, body)
+})
 
 #title-slide()
 
@@ -163,9 +171,12 @@
 
 == PEGの倫理的適応
 
-#figure(
+#tall-slide[
+  #figure(
   image("figure/PEG_rirni_tekiou.jpeg", height: 70%)
 )
+]
+
 
 == PEGの身体的適応
 
@@ -243,6 +254,8 @@
 
 - ガイドライン上は4週間を超える経管栄養で経鼻胃管より推奨
 
+#refs("Gut Liver. 2024;18(1):10-26.")
+
 == PEGの適応
 
 
@@ -296,7 +309,9 @@
 
 == PEGの交換
 
-- Balloon型だと1-3ヶ月毎
+- 日本だとバルーン型だと1-3ヶ月毎
+  - 海外のガイドラインバルーン型だと3-6ヶ月毎
+#refs("Clin Endosc. 2023;56(4):391-408.")
 - バンパー型だと4-6ヶ月毎
 
 == PEGの長期予後
