@@ -127,12 +127,19 @@
 
 == 日本のデータ
 
+#figure(
+  image("figure/stratified_pneumonia_km.png", height: 55%),
+  caption: [
+    誤嚥性肺炎患者の生命予後
+  ],
+)
+
 - 聖隷浜松病院のデータ
+- 全体だと、誤嚥性肺炎患者のうち半数は1年以内に亡くなる
+- 特に、経口摂取できないと誤嚥性肺炎の予後は極めて悪い
 
 
-#refs("
-    Honda Y, Homma Y, Nakamura M, Ojima T, Saito K. Extremely Poor Post-discharge Prognosis in Aspiration Pneumonia and Its Prognostic Factors: A Retrospective Cohort Study. Dysphagia. Published online February 22, 2024. doi:10.1007/s00455-023-10665-z
-  ")
+#refs("Dysphagia. 2024;39(5):837-845.")
 
 == 現在の世界的コンセンサス
 
@@ -256,38 +263,38 @@
 
 #refs("Gut Liver. 2024;18(1):10-26.")
 
-== PEGの適応
+// == PEGの適応
 
 
 
-#let data = (
-  ([Belgium], 24),
-  ([Germany], 31),
-  ([Greece], 18),
-  ([Spain], 21),
-  ([France], 23),
-  ([Hungary], 18),
-  ([Netherlands], 27),
-  ([Romania], 17),
-  ([Finland], 26),
-  ([Turkey], 13),
-)
+// #let data = (
+//   ([Belgium], 24),
+//   ([Germany], 31),
+//   ([Greece], 18),
+//   ([Spain], 21),
+//   ([France], 23),
+//   ([Hungary], 18),
+//   ([Netherlands], 27),
+//   ([Romania], 17),
+//   ([Finland], 26),
+//   ([Turkey], 13),
+// )
 
-#cetz.canvas({
-  let colors = gradient.linear(red, blue, green, yellow)
+// #cetz.canvas({
+//   let colors = gradient.linear(red, blue, green, yellow)
 
-  chart.piechart(
-    data,
-    value-key: 1,
-    label-key: 0,
-    radius: 4,
-    slice-style: colors,
-    inner-radius: 1,
-    outset: 3,
-    inner-label: (content: (value, label) => [#text(white, str(value))], radius: 110%),
-    outer-label: (content: "%", radius: 120%),
-  )
-})
+//   chart.piechart(
+//     data,
+//     value-key: 1,
+//     label-key: 0,
+//     radius: 4,
+//     slice-style: colors,
+//     inner-radius: 1,
+//     outset: 3,
+//     inner-label: (content: (value, label) => [#text(white, str(value))], radius: 110%),
+//     outer-label: (content: "%", radius: 120%),
+//   )
+// })
 
 == PEGの短期合併症
 
@@ -309,10 +316,37 @@
 
 == PEGの交換
 
-- 日本だとバルーン型だと1-3ヶ月毎
-  - 海外のガイドラインバルーン型だと3-6ヶ月毎
+- 日本だとバルーン型だと1-2ヶ月毎が多い
+#refs("https://www.peg.or.jp/lecture/peg/04-01.html")
+  - 海外のガイドラインではバルーン型だと3-6ヶ月毎
 #refs("Clin Endosc. 2023;56(4):391-408.")
-- バンパー型だと4-6ヶ月毎
+- 日本ではバンパー型だと4-6ヶ月毎が多い
+
+== PEGの交換方法
+
+- カテーテル非切断法とカテーテル切断法がある
+  - カテーテル切断法は内部ストッパーを一旦切り離し、古いカテーテルを抜き去った後、新しいカテーテルを用手的に挿入した後、内視鏡で古い内部ストッパーを回収する方法
+- いずれにせよ、PEG交換後の胃内の留置確認が必要
+
+== PEG交換後の胃内留置確認法
+
+#table(
+  columns: 2,
+  [間接確認法], [
+    - 送気音による確認 → 非推奨
+    - 胃内容物の吸引による確認 → 非推奨
+    - 色素液注入による確認（スカイブルー法）
+    - レントゲン設備を利用した確認
+  ],
+  [直接確認法], [
+    - 経胃瘻カテーテル内視鏡による確認
+    - 経鼻/経口内視鏡による確認
+  ]
+)
+
+#refs("https://www.peg.or.jp/lecture/peg/04-03.html")
+
+- 当院だと、非切断法でインジゴカルミン液を用いたスカイブルー法を併用が多い
 
 == PEGの長期予後
 
