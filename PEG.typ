@@ -356,17 +356,28 @@
 
 == PEGの長期予後の例
 
-- 施設からPEG目的の入院患者の場合
-- 入院中に行われたPEGの場合
-- 認知症と寝たきり率が違う
+
+#figure(
+  image("figure/amj2000_km.png", height: 50%)
+)
+
+- 入院中の急性期疾患でのPEGが予後不良を示した研究
+Group 1が外来でのPEG依頼(寝たきりは96%、認知症は87%)
+Group 2は入院中のPEG(寝たきりは79%、認知症は46%)
+- とは言え、Group 1でも1年で半数がなくなっている
 
 #refs("Am J Gastroenterol. 2000;95:128-132.")
 
 == PEGの長期予後の例
 
+#figure(
+  image("figure/jama_1998_forest.png", height: 50%)
+)
+
 - 大規模な観察研究
 - 認知症や肺炎などにより予後は大きく異なる
-- Forest plotを乗せる
+- 意外と、認知症単独では1年後に50%くらいが生存
+- 一方で、悪性腫瘍や肺炎はかなり予後が悪い
 
 #refs("JAMA. 1998;279(24):1973-1976.")
 
@@ -374,7 +385,11 @@
 
 #refs("JAMA Netw Open. 2025;8(2):e2460780.")
 
-#refs(" World J Gastroenterol. 2010;16(40):5084-5091. doi:10.3748/wjg.v16.i40.5084")
+- 日本で良いという結果
+- 神経疾患だと良いのかもしれない
 
+#refs(" World J Gastroenterol. 2010;16(40):5084-5091.")
 
-  
+== Take home message
+
+- 
