@@ -138,6 +138,8 @@
   ],
 )
 
+// Todo: Write Implication
+
 #refs("
     人生の最終段階における医療・ケアに関する意識調査事業. 人生の最終段階における医療・ケアに関する意識調査報告書. 2022年5月.
     https://www.mhlw.go.jp/toukei/list/dl/saisyuiryo_a_r04.pdf  
@@ -326,6 +328,21 @@
   - 傾向として日本だと長く、欧米だと短い
 - これはPEGをやっている患者層の差が大きい
 
+== 重症認知症の場合
+
+#figure(
+  image("figure/cascade_km.drawio.svg"),
+  caption: [
+    Kaplan-meier curve in CASCADE trial.
+  ],
+)
+
+- 2009年のCASCADE trial
+- 肺炎合併の重度認知症患者の中央値は6ヶ月
+
+#refs("N Engl J Med. 2009;361(16):1529-1538.")
+
+
 == 重症認知症のSystematic review
 
 
@@ -355,6 +372,8 @@ Group 2は入院中のPEG(寝たきりは79%、認知症は46%)
 
 == PEGの長期予後不良のリスク因子
 
+// Todo: Rread and write
+
 #refs("JAMA Netw Open. 2025;8(2):e2460780.")
 
 
@@ -363,19 +382,6 @@ Group 2は入院中のPEG(寝たきりは79%、認知症は46%)
 - 基本的にはかなり悪いが、原疾患による
 - 誤嚥性肺炎や認知機能低下によるものは極端に予後が悪い
 
-== Landmark trial
-
-#figure(
-  image("figure/cascade_km.drawio.svg"),
-  caption: [
-    Kaplan-meier curve in CASCADE trial.
-  ],
-)
-
-- 2009年のCASCADE trial
-- 肺炎合併の重度認知症患者の中央値は6ヶ月
-
-#refs("N Engl J Med. 2009;361(16):1529-1538.")
 
 == 日本のデータ
 
