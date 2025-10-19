@@ -291,8 +291,41 @@
 
 #refs("Gastrointest Endosc. 2014;80(1):88-96.")
 
-== PEGの短期合併症
-// Todo: 短期合併症について調べて書く
+== PEGの周術期合併症
+
+- 大きく分けて、感染症、出血、消化管穿孔、その他に分けられる
+  - 感染症は創部感染、腹膜炎、肺炎など
+  - 出血は胃粘膜の損傷、血管損傷
+  - 消化管穿孔は胃壁の損傷、腸管損傷
+    - 気をつけるべきはバンパー症候群
+
+== バンパー症候群とは
+
+
+== PEGの周術期合併症の発症率
+
+- 世界的には5-20%
+- 日本の単施設データだと20%程度
+- 日本のDPCデータだと以下の通りだが、粒度が粗すぎるので重症なもののみと考えたほうが良い
+  - 創部感染: 0.9%
+  - 腹膜炎/消化管穿孔: 0.8%
+  - 消化管穿孔: 2.6%
+  - 腹腔内出血: 0.03%
+
+#refs("Ann Nutr Metab. 2020;76(6):413-421.")
+
+
+    // Stenberg K, Eriksson A, Odensten C, Darehed D. Mortality and complications after percutaneous endoscopic gastrostomy: a retrospective multicentre study. BMC Gastroenterol. 2022;22(1):361. doi:10.1186/s12876-022-02429-0
+  
+
+
+    // Stein DJ, Moore MB, Hoffman G, Feuerstein JD. Improving all-cause inpatient mortality after percutaneous endoscopic gastrostomy. Dig Dis Sci. 2021;66(5):1593-1599. doi:10.1007/s10620-020-06396-y
+  
+
+
+    // Anderloni A, Di Leo M, Barzaghi F, et al. Complications and early mortality in percutaneous endoscopic gastrostomy placement in lombardy: A multicenter prospective cohort study. Dig Liver Dis. 2019;51(10):1380-1387. doi:10.1016/j.dld.2019.03.024
+  
+
 
 == PEGの交換
 
