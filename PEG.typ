@@ -300,11 +300,29 @@
 - PEG特有なのはバンパー埋没症候群やボールバルブ症候群
 
 == バンパー埋没症候群とは
-// https://www.peg.or.jp/lecture/peg/06-03-01.html
+
+#figure(
+  image("figure/bumper_embedded.png", height: 45%)
+)
+
+- PEGの内部のバンパーの締まりが強すぎて胃粘膜の血流障害を起こすこと
+  - 内部バンパーは徐々に胃壁に埋没してしまう
+- 適切なタイミングでバンパーを緩める必要がある
+  - 当院では24時間後
+
+#refs("https://www.peg.or.jp/lecture/peg/06-03-01.html")
 
 == ボールバルブ症候群とは
 
-// https://www.peg.or.jp/lecture/peg/06-03-02.html
+#figure(
+  image("figure/ball_valve.png", height: 45%)
+)
+
+- バルーン型カテーテルの先端バルーンが十二指腸に嵌頓してしまう
+- 嘔吐を繰り返すが胆汁や栄養剤が出てこないのが特徴
+- バルーンを虚脱させ、胃内に戻す
+
+#refs("https://www.peg.or.jp/lecture/peg/06-03-02.html")
 
 == PEGの周術期合併症の発症率
 
