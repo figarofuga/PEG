@@ -327,35 +327,25 @@
 == PEGの周術期合併症の発症率
 
 - 世界的には5-20%
+#refs("Dig Dis Sci. 2021;66(5):1593-1599.")
+#refs("BMC Gastroenterol. 2022;22(1):361.")
+- 合併症自身と死亡は相関しない
+#refs("Dig Liver Dis. 2019;51(10):1380-1387.")
 - 日本の単施設データだと20%程度
-- 日本のDPCデータだと以下の通りだが、粒度が粗すぎるので重症なもののみと考えたほうが良い
-  - 創部感染: 0.9%
-  - 腹膜炎/消化管穿孔: 0.8%
-  - 消化管穿孔: 2.6%
-  - 腹腔内出血: 0.03%
+  - 感染症が16%で最多(肺炎は約4%、創部感染が約2.5%)
+  - 緊急手術が必要な状態は1.6%
+
 
 #refs("Ann Nutr Metab. 2020;76(6):413-421.")
-
-
-    // Stenberg K, Eriksson A, Odensten C, Darehed D. Mortality and complications after percutaneous endoscopic gastrostomy: a retrospective multicentre study. BMC Gastroenterol. 2022;22(1):361. doi:10.1186/s12876-022-02429-0
   
-
-
-    // Stein DJ, Moore MB, Hoffman G, Feuerstein JD. Improving all-cause inpatient mortality after percutaneous endoscopic gastrostomy. Dig Dis Sci. 2021;66(5):1593-1599. doi:10.1007/s10620-020-06396-y
-  
-
-
-    // Anderloni A, Di Leo M, Barzaghi F, et al. Complications and early mortality in percutaneous endoscopic gastrostomy placement in lombardy: A multicenter prospective cohort study. Dig Liver Dis. 2019;51(10):1380-1387. doi:10.1016/j.dld.2019.03.024
-  
-
-
 == PEGの交換
 
-- 日本だとバルーン型だと1-2ヶ月毎が多い
+- 日本では
+  - バルーン型だと1-2ヶ月毎が多い
+  - 日本ではバンパー型だと4-6ヶ月毎が多い
 #refs("https://www.peg.or.jp/lecture/peg/04-01.html")
-  - 海外のガイドラインではバルーン型だと3-6ヶ月毎
+- 海外のガイドラインではバルーン型だと3-6ヶ月毎
 #refs("Clin Endosc. 2023;56(4):391-408.")
-- 日本ではバンパー型だと4-6ヶ月毎が多い
 
 == PEGの交換方法
 
@@ -381,7 +371,7 @@
 
 #refs("https://www.peg.or.jp/lecture/peg/04-03.html")
 
-- 当院だと、非切断法でインジゴカルミン液を用いたスカイブルー法を併用が多い
+- 当院だと、非切断法でインジゴカルミン液を用いたスカイブルー法の併用が多い
 
 = PEGの長期予後
 
@@ -394,14 +384,14 @@
 == 重症認知症の場合
 
 #figure(
-  image("figure/cascade_km.drawio.svg"),
+  image("figure/cascade_km.drawio.svg", height: 60%),
   caption: [
     Kaplan-meier curve in CASCADE trial.
   ],
 )
 
-- 2009年のCASCADE trial
-- 肺炎合併の重度認知症患者の中央値は6ヶ月
+- 2009年のCASCADE trialにおいて、肺炎合併の重度認知症患者の中央値は6ヶ月
+
 
 #refs("N Engl J Med. 2009;361(16):1529-1538.")
 
@@ -422,7 +412,7 @@
 
 
 - 2014-2018年のカナダの大規模データ
-- 65歳以上の認知症のPEG患者(実際の平均年齢は約84歳、n = 1,312)
+- 65歳以上の認知症のPEG患者(実際の平均年齢は約84歳、#lb n = 1,312)
 - 1年生存率は約50%
 
 #refs("JAMA Netw Open. 2025;8(2):e2460780.")
@@ -448,11 +438,12 @@
 
 
 - PEGの患者の研究の予後は研究によってめちゃくちゃ違う
+  - 古い日本の研究だと、2年以上生きている人も半数超えるものもある
+#refs("World J Gastroenterol. 2010;16(40):5084-5091.")
 - やはり、手技というよりは患者背景による
 - 特にRCTがないので、非PEG患者の予後との比較は不可能
 - 一つ一つの症例で悩むくらいが良いのかも
 
-#refs("World J Gastroenterol. 2010;16(40):5084-5091.")
 
 == Take home message
 
@@ -463,7 +454,9 @@
 == 最後に
 
 #figure(
-  image("figure/hand_feeding.png", height: 80%)
+  image("figure/hand_feeding.png", height: 60%)
 )
 
 #refs("JAMA. 2025;334(6):550. doi:10.1001/jama.2025.7857")
+
+- 最後まで手で食べることが重要なんだと思う
